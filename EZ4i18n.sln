@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EZ4i18n", "EZ4i18n\EZ4i18n.csproj", "{70C73C07-9D53-4719-B42A-9558655A302E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EZ4i18n.test", "EZ4i18n.test\EZ4i18n.test.csproj", "{D554A207-42A4-466F-9E4E-0F6A2B80C31D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{70C73C07-9D53-4719-B42A-9558655A302E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70C73C07-9D53-4719-B42A-9558655A302E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70C73C07-9D53-4719-B42A-9558655A302E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D554A207-42A4-466F-9E4E-0F6A2B80C31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D554A207-42A4-466F-9E4E-0F6A2B80C31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D554A207-42A4-466F-9E4E-0F6A2B80C31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D554A207-42A4-466F-9E4E-0F6A2B80C31D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
