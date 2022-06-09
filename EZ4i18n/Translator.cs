@@ -125,9 +125,20 @@ public class Translator
 
     public string GetTranslation(string s)
     {
-        if (!sentence_index.ContainsKey(s)) return s;
-        var index = sentence_index[s];
-        return translations[_curLang][index];
+        List<string> transSentenceList = new();
+        var sentenceList = s.Split(System.Environment.NewLine);
+        foreach (var sentence in sentenceList)
+        {
+            if (!sentence_index.ContainsKey(sentence)) 
+                transSentenceList.Add(sentence);
+            else
+            {
+                var index = sentence_index[sentence];
+                transSentenceList.Add(translations[_curLang][index]);
+            }
+        }
+
+        return string.Join("\n",transSentenceList);
     }
 }
 

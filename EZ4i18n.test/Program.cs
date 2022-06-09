@@ -23,6 +23,14 @@ Console.WriteLine("你好".Translate());//已有内容翻译
 Console.WriteLine("世界".Translate());//已有内容翻译
 Console.WriteLine("这是一个测试案例".Translate());//已有内容翻译
 Console.WriteLine("这是".Translate());//没有内容翻译，默认返回原文字
+Console.WriteLine(@"本游戏仅用于致敬经典游戏《金庸群侠传》
+
+游戏开放源代码，无任何商业化元素，也禁止一切再度商用。
+欢迎举报任何使用本游戏盈利的行为。
+
+
+
+金庸老先生千古！".Translate());//没有内容翻译，默认返回原文字
 
 #endregion
 

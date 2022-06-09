@@ -1,3 +1,7 @@
 ﻿Hello
 world
 This is a test case
+This game is only used to pay tribute to the classic game Jinyong Heroes
+The game is open source, without any commercial elements, and it is forbidden to use it again.
+You are welcome to report any use of this game for profit.
+Old Mr. Jin Yong will live forever!
